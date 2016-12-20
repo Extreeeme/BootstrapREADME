@@ -13,7 +13,7 @@ Les frameworks CSS proposent en général une grille pour faciliter le positionn
 Les frameworks CSS offrent souvent des éléments complémentaires : boutons esthétiques, barres de navigation, etc...
 La grande diffusion de nouveaux moyens de visualisation du web (smartphones, tablettes…) impose désormais la prise en compte de tailles d'écran très variées ; les frameworks CSS prennent généralement en compte cette contrainte.
 
-##Les inconvénients
+###Les inconvénients
 
 Pour utiliser efficacement un framework il faut bien le connaître, ce qui implique un temps d'apprentissage.
 La normalisation de la présentation peut devenir lassante en lissant les effets visuels.
