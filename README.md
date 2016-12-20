@@ -31,7 +31,7 @@ La normalisation de la présentation peut devenir lassante en lissant les effets
 
 ####Exemple :
 
-	<div class="content-fluid"> </div>
+	<div class="container-fluid"> </div>
 	//Fait en sorte que la div fasse la largeur de la page
 
 ###Exemple : créer des lignes
