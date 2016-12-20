@@ -2,6 +2,10 @@
 
 ##Présentation
 
+Avant toute chose, il faut définir ce qu'est un framework. Il s'agit d'un ensemble de composants structurés qui sert à créer les bases et à organiser le code informatique pour faciliter le travail des programmeurs, que ce soit en terme de productivité ou de simplification de la maintenance. Il en existe beaucoup pour les applications web qui ciblent de nombreux langages : Java, Python, Ruby, PHP…
+
+Il existe des frameworks côté serveur (désignés backend en anglais), et d'autres côté client (désignés frontend en anglais). Bootstrap fait partie de cette deuxième catégorie. Les frameworks CSS sont spécialisés, comme leur nom l'indique, dans les CSS ! C'est-à-dire qu'ils nous aident à mettre en forme les pages web : organisation, aspect, animation…
+
 Bootstrap est un framework CSS, mais pas seulement, puisqu'il embarque également des composants HTML et JavaScript. Il comporte un système de grille simple et efficace pour mettre en ordre l'aspect visuel d'une page web. Il apporte du style pour les boutons, les formulaires, la navigation… Il permet ainsi de concevoir un site web rapidement et avec peu de lignes de code ajoutées. Le framework le plus proche de Bootstrap est sans doute Foundation qui est présenté comme « The most advanced responsive front-end framework in the world ». Cette absence de modestie est-elle de mise ? Je pense que c'est surtout une affaire de goût et de préférence personnelle. En tout cas en terme de popularité c'est Bootstrap qui l'emporte haut la main.
 
 ###Les intêrets
@@ -27,24 +31,20 @@ La normalisation de la présentation peut devenir lassante en lissant les effets
 
 ####Exemple :
 
-	@media (min-width: 992px) {
-	.container {
-    width: 970px;
-	}
-	}
+	<div class="content-fluid"> </div>
+	//Fait en sorte que la div fasse la largeur de la page
 
-Du plus étroit vers le plus large 
-## Les codes à connaître
+## Les classes à connaître
+
+	
+	/!\ LIER LE CSS EN PREMIER POUR POUVOIR ECRASER LES PROPRIETES
 
 	.row {
-	margin-right: -15px;
-	margin-left: -15px;
 	}
 
 Pour selectionner un type de colonne en particulier
 
-	.row [class^="col-"]{
-	
+	.row col-md-1{
 	}
 
 
@@ -57,9 +57,9 @@ Pour selectionner un type de colonne en particulier
 Exemple : 
 	
 	col-md-6
-	col ==> colonne
-	md ==> type medium
-	6 ==> de taille 6
+	col 	==>	colonne
+	md  	==>	type medium
+	6  		==>	de taille 6
 
 ###Sauter des colonnes
 	col-*-offset-1
