@@ -34,7 +34,7 @@ La normalisation de la présentation peut devenir lassante en lissant les effets
 	<div class="content-fluid"> </div>
 	//Fait en sorte que la div fasse la largeur de la page
 
-## Les classes à connaître
+## Exemple : créer des lignes
 
 	
 	/!\ LIER LE CSS EN PREMIER POUR POUVOIR ECRASER LES PROPRIETES
