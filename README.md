@@ -8,6 +8,11 @@ Il existe des frameworks côté serveur (désignés backend en anglais), et d'au
 
 Bootstrap est un framework CSS, mais pas seulement, puisqu'il embarque également des composants HTML et JavaScript. Il comporte un système de grille simple et efficace pour mettre en ordre l'aspect visuel d'une page web. Il apporte du style pour les boutons, les formulaires, la navigation… Il permet ainsi de concevoir un site web rapidement et avec peu de lignes de code ajoutées. Le framework le plus proche de Bootstrap est sans doute Foundation qui est présenté comme « The most advanced responsive front-end framework in the world ». Cette absence de modestie est-elle de mise ? Je pense que c'est surtout une affaire de goût et de préférence personnelle. En tout cas en terme de popularité c'est Bootstrap qui l'emporte haut la main.
 
+![Google logo](https://user.oc-static.com/files/373001_374000/373713.png "google logo")
+
+![Google logo](https://user.oc-static.com/files/373001_374000/373714.png "google logo")
+![Google logo](https://user.oc-static.com/files/421001_422000/421570.jpg "google logo")
+
 ###Les intêrets
 
 Les navigateurs sont pleins de fantaisies et ont des comportements très différents malgré leur lente convergence vers les standards. Les frameworks sont cross-browser, c'est à dire que la présentation est similaire quel que soit le navigateur utilisé et d'une parfaite compatibilité .
